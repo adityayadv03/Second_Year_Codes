@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Readme_Experiment_1</title>
 </head>
 <body>
+    <h>Experiment_1</h>
     <p>Experiment 1 Basic of Java Use of Static final keywords in Classes in Java</p>
     <p>Question 1 Write a  Program To Print Your Name</p>
     <p>Question 2 Write a Program to sum two integer numbers, declare non static integers in main function.</p>
