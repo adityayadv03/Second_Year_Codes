@@ -1,4 +1,4 @@
-package Second_Year_Codes.Object_Oriented_Programming.Course_Experiment.Experiment_2; //If Error Is Produce By This Line Remove It Then Run The Code
+//package Second_Year_Codes.Object_Oriented_Programming.Course_Experiment.Experiment_2; //If Error Is Produce By This Line Remove It Then Run The Code
 /*Author :- Aditya Yadav */
 import java.util.*;
 public class Question_1 //Program To Find Factorial
