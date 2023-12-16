@@ -1,8 +1,8 @@
 /*Author :- Aditya Yadav */
 import java.util.*;
-public class Question_8
+public class Question_8 //Program to Print Pattern 
 {
-    public static void pattern1(int n)
+    public static void pattern1(int n) //Function to Print the First Pattern with limit as argument
     {
         for(int i=1 ; i<=n ; i++)
         {
@@ -21,7 +21,7 @@ public class Question_8
             System.out.println();
         }
     }
-    public static void pattern2(int n)
+    public static void pattern2(int n) //Function to Print Pattern 2 and Limit as Argument
     {
         for(int i=1 ; i<=n ; i++)
         {
@@ -39,11 +39,11 @@ public class Question_8
     public static void main(String[]args)
     {
         Scanner in = new Scanner(System.in);
-        System.out.println("1.Pattern 1 . ");
-        System.out.println("2.Pattern 2 . ");
-        System.out.print("Enter your Choice :- ");
+        System.out.println("1.Pattern 1 . "); //Option One
+        System.out.println("2.Pattern 2 . "); //Option two
+        System.out.print("Enter your Choice :- "); //Asking for Choice
         int ch=in.nextInt();
-        System.out.print("Enter the Limit Of Pattern :- ");
+        System.out.print("Enter the Limit Of Pattern :- "); //Asking for pattern length
         int lim=in.nextInt();
         if(ch==1)
         {
@@ -55,7 +55,7 @@ public class Question_8
         }
         else
         {
-            System.out.println("Wrong Choice . ");
+            System.out.println("Wrong Choice . "); //Message for Wrong Option
         }
         in.close();
     }
