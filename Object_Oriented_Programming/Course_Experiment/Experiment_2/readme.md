@@ -11,5 +11,8 @@
     <p>Question 4 Write a Program to parse a double from a string using parseDouble()</p>
     <p>Question 5 Write a Program to parse a Integer from a string using parseInt()</p>
     <p>Question 6 Write a Program to Convert integer to string </p>
+    <p>Question 7 Write a Program to compare two objects of wrapper class Integer Using equals</p>
+    <p>Question 8 Write Program to Print Specific Pattern . </p>
+    <p>Question 9 Write a Program to create and initialize 2D array of 2x2 and find the sum of all elements of an array</p>
 </body>
 </html>
