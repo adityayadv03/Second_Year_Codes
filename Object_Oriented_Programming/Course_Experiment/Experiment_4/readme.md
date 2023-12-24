@@ -12,5 +12,7 @@
     In the main program , create instances of both Car and Motorcycle objects , set their attributes , and call the displayinfo() method for each to display their respective information .</p>
     <p>Question 3 Write a program to simulate logical AND and OR operation on boolean . </p>
     <p>Question 4 Write a program to find the maximum of two numbers using ternary operator . </p>
+    <p>Question 5 Calculate the absolute value of a number using the ternary operator . </p>
+    <p>Question 6 Write a program to perform bitwise AND , OR XOR operation on two integers . </p>
 </body>
 </html>
