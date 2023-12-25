@@ -14,5 +14,7 @@
     <p>Question 4 Write a program to find the maximum of two numbers using ternary operator . </p>
     <p>Question 5 Calculate the absolute value of a number using the ternary operator . </p>
     <p>Question 6 Write a program to perform bitwise AND , OR XOR operation on two integers . </p>
+    <p>Question 7 Implement a program to left-shift and right-shift a binary number by a specified number of position . </p>
+    <p>Question 8 Write a Java Program to demonstrate the instanceof operator . </p>
 </body>
 </html>
