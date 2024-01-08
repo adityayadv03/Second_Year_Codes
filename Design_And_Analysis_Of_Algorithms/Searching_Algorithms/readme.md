@@ -1,3 +1,5 @@
-###__Searching ALgorithms__
-####_Linear Search_
-####_Binary Search_
+# Searching ALgorithms
+
+## Linear Search
+
+## Binary Search
