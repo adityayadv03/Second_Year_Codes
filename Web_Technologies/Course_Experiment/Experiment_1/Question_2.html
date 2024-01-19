@@ -1,0 +1,112 @@
+<!--Author - Aditya Yadav-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Of the Semester</title>
+    <style> /* Used style tag to implement internal CSS */
+        body{
+            text-align: center; /*Target the body tag to align all element in the center*/
+        }
+        table , th , td{ /*Target table , table head and table data tags to give some style*/
+            border: 1px solid black; /*Added Borders*/
+            border-collapse: collapse; /*Collapse all the border to have a good view of the border*/
+            padding: 3px; /*Adding some internal spacing*/
+        }
+        .online{
+            background-color: pink; /*Changed Color of the targeted class*/
+        }
+        .descript{
+            background-color: lightcyan; /*Changed Color of the targeted class*/
+        }
+        .LAB {
+            background-color: rgb(252, 252, 162); /*Changed Color of the targeted class*/
+        }
+        .classover ,.noclass{
+            background-color: lightgreen; /*Changed Color of the targeted class*/
+        }
+        .classes{
+            background-color: lightblue; /*Changed Color of the targeted class*/
+        }
+        .brk{
+            background-color: aliceblue; /*Changed Color of the targeted class*/
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Timetable Batch 9 AI&ML</h1> <!--Heading of the page aligned center-->
+    <table> <!--Created Table by using table tag-->
+        <tr class="descript"> <!--Created the first table row with days name in it-->
+            <th>Timing      Days</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr> <!--Created the second row with time in the first column and subject according to timetable-->
+            <td class="descript">9 to 10 AM</td>
+            <td class="noclass" rowspan="8">No Class</td> <!--Used rowspan means that the current block to take space of two rows-->
+            <td rowspan="2" class="LAB">Software Engineering and Project Management Lab</td>
+            <td class="noclass">No Class</td> <!--Used class to classify all the block having the same color-->
+            <td class="classes">Machine Learning</td>
+            <td class="noclass">No Class</td>
+            <td class="classes">Advanced Database Management System</td>
+        </tr>
+        <tr> <!--Added Third Rows-->
+            <td class="descript">10 to 11 AM</td>
+            <td class="classes">Web Technologies</td>
+            <td class="brk" rowspan="3">BREAK</td>
+            <td class="classes">Web Technologies</td>
+            <td class="classes">Enviornment & SDG</td>
+        </tr>
+        <tr> <!--Added Fourth Rows-->
+            <td class="descript">11 to 12 AM</td>
+            <td class="brk">BREAK</td>
+            <td class="brk" rowspan="2">BREAK</td>
+            <td class="brk">BREAK</td>
+            <td rowspan="2" class="LAB">Machine Learning Lab</td>
+        </tr>
+        <tr> <!--Added Fifth Rows-->
+            <td class="descript">12 to 1 PM</td>
+            <td class="classes">Formal Language and Automata Theory</td>
+            <td class="classes">Software Engineering and Project Management</td>
+        </tr>
+        <tr> <!--Added Sixth Rows-->
+            <td class="descript">1 to 2 PM</td>
+            <td class="brk">BREAK</td>
+            <td class="classes">Software Engineering and Project Management</td>
+            <td rowspan="2" class="LAB">Web Technologies Lab</td>
+            <td class="brk">BREAK</td>
+            <td class="brk">BREAK</td>
+        </tr>
+        <tr> <!--Added Seventh Rows-->
+            <td class="descript">2 to 3 PM</td>
+            <td class="classes">Machine Learning</td>
+            <td class="classes">Advanced Database Management System</td>
+            <td class="classes">Machine Learning</td>
+            <td class="classes">Formal Language and Automata Theory</td>
+        </tr>
+        <tr> <!--Added Eighth Rows-->
+            <td class="descript">3 to 4 PM</td>
+            <td class="classes">EDGE-Softskills</td>
+            <td class="classover" rowspan="3">CLASS OVER</td>
+            <td rowspan="2" class="LAB">Advanced Database Management System Lab</td>
+            <td class="classes">Formal Language and Automata Theory</td>
+            <td class="classover" rowspan="3">CLASS OVER</td>
+        </tr>
+        <tr> <!--Added Ninth Rows-->
+            <td class="descript">4 to 5 PM</td>
+            <td class="classover" rowspan="2">CLASS OVER</td>
+            <td class="online" rowspan="2">Design Thinking</td>
+        </tr>
+        <tr> <!--Added Tenth Rows-->
+            <td class="descript">5 to 6 PM</td>
+            <td class="online">Design Thinking</td>
+            <td class="classover">CLASS OVER</td>
+        </tr>
+    </table>
+</body>
+</html>
