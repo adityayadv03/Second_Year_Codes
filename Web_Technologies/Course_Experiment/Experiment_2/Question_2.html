@@ -1,0 +1,74 @@
+<!-- Author :- Aditya Yadav -->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Code to Create a Basic Login Form for Some Registration-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2 Question 2</title>
+    <style>
+        body{
+            background-color: rgb(160, 212, 229);
+            color: rgb(31, 29, 29);
+        }
+        .container{
+            display: flex;
+            margin-top: 150px;
+            justify-content: center;
+        }
+        .inner{
+            background-color: rgb(240, 180, 180);
+            border: 2px solid black;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .button{
+            padding: 5px;
+            background-color: lightgreen;
+            margin-left: 35px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .main{
+            margin-left: 30%;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <h3 class="main">Register Now</h3>
+            <form>
+                <label for="name">Enter Your Name :- </label>
+                <input id="name" type="text">
+                <br>
+                <br>
+                <label>Enter Your Age :- </label>
+                <input id="age" type="number">
+                <br>
+                <br>
+                <label for="dob">Date of Birth :- </label>
+                <input id="dob" type="month">
+                <br>
+                <br>
+                <label for="course">Select Course :- </label>
+                <select id="course">
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="bdes">B.Des</option>
+                    <option value="mdes">M.Des</option>
+                    <option value="bsc">B.Sc</option>
+                    <option value="msc">M.Sc</option>
+                    <option value="bca">BCA</option>
+                    <option value="mca">MCA</option>
+                </select>
+                <br>
+                <br>
+                <button class="button">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
