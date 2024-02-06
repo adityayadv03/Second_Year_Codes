@@ -1,0 +1,58 @@
+<!-- Author :- Aditya Yadav -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 3 Question 4</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        .outer{
+            background-color: rgb(15, 14, 14);
+            width: 1366px;
+            height: 655px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 100px;
+        }
+        .inner1{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s ease-in-out;
+        }
+        .inner1:hover{
+            transform: scale(1.2);
+        }
+        .inner2{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s ease-in-out;
+        }
+        .inner2:hover{
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner1">
+            <p>Hover To Zoom In</p>
+        </div>
+        <div class="inner2">
+            <p>Hover To Zoom Out</p>
+        </div>
+    </div>
+</body>
+</html>
