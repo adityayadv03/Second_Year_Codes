@@ -43,3 +43,6 @@ form .display input{
 form input.equal{
     width: 145px;
 }
+form input.colorbutton{
+    color: #33ffd8;
+}
