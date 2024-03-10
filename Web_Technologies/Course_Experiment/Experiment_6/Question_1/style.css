@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    border: 2px solid black;
+    padding: 10px;
+    display: block;
+}
+button{
+    display: block;
+    background-color: aquamarine;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
