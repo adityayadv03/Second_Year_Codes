@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    border: 2px solid brown;
+    padding: 10px;
+}
+.change{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+}
+#el1{
+    background-color: aqua;
+}
+#el2{
+    background-color: lightcoral;
+}
+#el3{
+    background-color: lightgreen;
+}
+.bloc{
+    display: block;
+}
