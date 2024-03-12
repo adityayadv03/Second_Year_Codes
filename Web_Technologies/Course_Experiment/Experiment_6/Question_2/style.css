@@ -21,24 +21,29 @@ body{
 }
 .center{
     display: flex;
+    flex-direction: column;
     border: 2px solid brown;
     padding: 10px;
+    width: 795px;
 }
 .inner{
     padding: 5px;
 }
 .inner p{
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border: 1px solid black;
     margin-bottom: 6px;
 }
 .inner button{
-    padding: 10px 15px;
+    padding: 8px 12px;
     color: #ffffff;
     background-color: #2ea44f;
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
     border-radius: 20px;
+}
+.incenter{
+    display: flex;
 }

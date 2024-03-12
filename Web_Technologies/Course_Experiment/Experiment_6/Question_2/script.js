@@ -3,9 +3,21 @@ let but2EL=document.getElementById("but2");
 let but3EL=document.getElementById("but3");
 
 
-but1EL.addEventListener("click",changeback("el1"));
-but2EL.addEventListener("click",changeback("el2"));
-but3EL.addEventListener("click",changeback("el3"));
+but1EL.addEventListener("click",function changeback(){
+    let color=prompt("Enter Any Valid Color to Change");
+    let eleEL=document.getElementById("el1");
+    eleEL.style.backgroundColor=color;
+});
+but2EL.addEventListener("click",function changeback(){
+    let color=prompt("Enter Any Valid Color to Change");
+    let eleEL=document.getElementById("el2");
+    eleEL.style.backgroundColor=color;
+});
+but3EL.addEventListener("click",function changeback(){
+    let color=prompt("Enter Any Valid Color to Change");
+    let eleEL=document.getElementById("el3");
+    eleEL.style.backgroundColor=color;
+});
 
 function changeback(ele){
     let color=prompt("Enter Any Valid Color to Change");
