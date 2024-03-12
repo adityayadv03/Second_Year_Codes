@@ -25,6 +25,7 @@ body{
     border: 2px solid brown;
     padding: 10px;
     width: 795px;
+    background-color: beige;
 }
 .inner{
     padding: 5px;
