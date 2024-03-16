@@ -1,3 +1,8 @@
+let dropEL=document.getElementById("age");
+for(let i=18 ; i<=50 ; i++){
+    dropEL.innerHTML+="<option>"+i+"</option>";
+}
+
 let nameEL=document.getElementById("name");
 let ageEl=document.getElementById("age");
 let messEl=document.getElementById("mess");
