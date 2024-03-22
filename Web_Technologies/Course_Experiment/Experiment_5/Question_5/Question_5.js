@@ -27,7 +27,8 @@ function printIt(){
             oddansEL.textContent="";
             evenansEL.textContent+=i+" ";
             console.log(i);
-        }else if(isodd==true){
+        }
+        if(i%2!=0 && isodd==true){
             evenansEL.textContent="";
             oddansEL.textContent+=i+" ";
             console.log(i);
