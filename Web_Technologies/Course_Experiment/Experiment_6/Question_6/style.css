@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 #ext{
     display: inline-block;
@@ -24,4 +24,18 @@ div{
     border: none;
     font-weight: 500;
     font-size: large;
+}
+#error{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px;
+}
+#main{
+    border: 2px solid rgb(202, 106, 202);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
