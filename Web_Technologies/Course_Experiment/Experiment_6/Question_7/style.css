@@ -1,0 +1,15 @@
+div{
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    margin: 0;    
+}
+#but{
+    padding: 5px 10px;
+    color: rgb(75, 56, 56);
+    background-color: lightblue;
+    border: none;
+    font-weight: 700;
+    font-style: italic;
+}
