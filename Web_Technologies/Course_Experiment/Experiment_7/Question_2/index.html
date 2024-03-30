@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 7 Question 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <label for="find">Enter Anything to Find :- </label>
+        <input type="text" ng-model="search" id="find">
+        <div ng-repeat="x in names|filter:search">
+            <p>The Name :- {{x}}</p>
+        </div>
+    </div>
+    <script>
+        angular.module('myApp',[]).controller('myCtrl',($scope)=>{
+            $scope.names=[
+            'Aditya','Sadhika','Abhinav','Aravind','Jagan','Adnan','Neel','Advaith',
+            'Shruti','Pratima','Devas','Shivali','Vivaan','Dhruv','Chetan','Arnav'
+            ]
+        });
+    </script>
+</body>
+</html>
