@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 7 Question 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Sap Id</td>
+            <td>email</td>
+        </tr>
+        <tr ng-repeat="i in names | orderBy : 'name'">
+            <td ng-if="$even" style="background-color: lightblue;">{{i.name}}</td>
+            <td ng-if="$odd" style="background-color: lightcoral;">{{i.name}}</td>
+            <td ng-if="$even" style="background-color: pink;">{{i.sapid}}</td>
+            <td ng-if="$odd" style="background-color: lightgreen;">{{i.sapid}}</td>
+            <td ng-if="$even" style="background-color: aqua;">{{i.email}}</td>
+            <td ng-if="$odd" style="background-color: salmon;">{{i.email}}</td>
+        </tr>
+        <tr ng-repeat="i in names | orderBy : 'name'">
+            <td ng-if="$even" style="background-color: lightblue;">{{i.name}}</td>
+            <td ng-if="$even" style="background-color: pink;">{{i.sapid}}</td>
+            <td ng-if="$even" style="background-color: aqua;">{{i.email}}</td>
+        </tr>
+    </table>
+    <script>
+        angular.module('myApp',[]).controller('myCtrl',function($scope){
+            $scope.names=[
+                {name:'person1',sapid:'5001',email:'abc@gmail.com'},
+                {name:'person2',sapid:'5004',email:'def@gmail.com'},
+                {name:'person3',sapid:'5003',email:'ghi@gmail.com'},
+                {name:'person4',sapid:'5002',email:'klm@gmail.com'}
+            ];
+        });
+    </script>
+</body>
+</html>
