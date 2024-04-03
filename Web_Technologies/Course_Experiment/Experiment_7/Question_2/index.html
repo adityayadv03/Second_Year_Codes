@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 7 Question 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <style>
+        body{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            top: 225px;
+        }
+    </style>
+</head>
+<body>
+    <div ng-app="" ng-init="hrs='0';wag='0';bon='0'">
+        <form>
+            <label for="hrs">Enter Number of Hours :- </label>
+            <input type="number" id="hrs" ng-model="hrs">
+            <br>
+            <label for="wag">Enter Wage per of Hours :- </label>
+            <input type="number" id="wag" ng-model="wag">
+            <br>
+            <label for="bon">Enter Bonus percentage :- </label>
+            <input type="number" id="bon" ng-model="bon" min="0" max="100">
+        </form>
+        <p>Wage :- {{((hrs*wag)+(bon*((hrs*wag)/100)))}}</p>
+    </div>
+</body>
+</html>
