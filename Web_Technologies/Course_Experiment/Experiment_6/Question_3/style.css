@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Tilt Neon",sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 15px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+.box{
+    padding: 5px;
+}
+.box input,select,textarea{
+    font-family: "Tilt Neon",sans-serif;
+}
+#sub{
+    background-color: goldenrod;
+    padding: 8px 12px;
+    font-family: "Tilt Neon",sans-serif;
+}
+#mess{
+    color: red;
+}
+#sub{
+    position: relative;
+    left: 35%;
+}

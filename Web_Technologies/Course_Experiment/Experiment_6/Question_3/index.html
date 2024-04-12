@@ -5,42 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 <body>
     <form>
-        <label for="name">Name :- </label>
-        <input type="text" id="name">
-        <br>
-        <label for="pass">Password :- </label>
-        <input type="password" id="pass">
-        <br>
-        <label for="age">Age :- </label>
-        <select id="age"></select>
-        <br>
-        <label>Gender: </label>
-        <br>
-        <label for="male">Male :- </label>
-        <input type="radio" id="male" name="gen">
-        <br>
-        <label for="female">Female :- </label>
-        <input type="radio" id="female" name="gen">
-        <br>
-        <label for="qua">Qualification:- </label>
-        <select id="qua">
-            <option>Matriculate</option>
-            <option>Intermediate</option>
-            <option>Graduate</option>
-            <option>Post Graduate</option>
-            <option>Doctorate of Philosophy</option>
-        </select>
-        <br>
-        <label for="address">Enter Your Address :- </label>
-        <br>
-        <textarea id="address" rows="10" cols="20" placeholder="Enter Your Address"></textarea>
-        <br>
-        <button id="sub">Submit</button>
+        <div class="box">
+            <label for="name">Name :- </label>
+            <input type="text" id="name">
+        </div>
+        <div class="box">
+            <label for="pass">Password :- </label>
+            <input type="password" id="pass">
+        </div>
+        <div class="box">
+            <label for="age">Age :- </label>
+            <select id="age"></select>
+        </div>
+        <div class="box">
+            <label>Gender: </label>
+            <br>
+            <div class="inner-box">
+                <label for="male">Male :- </label>
+                <input type="radio" id="male" name="gen">
+            </div>
+            <div class="inner-box">
+                <label for="female">Female :- </label>
+                <input type="radio" id="female" name="gen">
+            </div>
+        </div>
+        <div class="box">
+            <label for="qua">Qualification:- </label>
+            <select id="qua">
+                <option>Matriculate</option>
+                <option>Intermediate</option>
+                <option>Graduate</option>
+                <option>Post Graduate</option>
+                <option>Doctorate of Philosophy</option>
+            </select>
+        </div>
+        <div class="box">
+            <label for="address">Enter Your Address </label>
+            <br>
+            <textarea id="address" rows="10" cols="35" placeholder="Enter Your Address"></textarea>
+        </div>
+        <div class="box">
+            <p id="mess"></p>
+        </div>
+        <div class="box">
+            <button id="sub">Submit</button>
+        </div>
     </form>
-    <p id="mess"></p>
     <script src="script.js"></script>
 </body>
 </html>
