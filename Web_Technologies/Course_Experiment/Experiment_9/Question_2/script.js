@@ -6,5 +6,8 @@ const submitEL=document.getElementById("submit");
 submitEL.addEventListener("click",(event)=>{
     let name=nameEL.value;
     let sap=sapEL.value;
-    let mail=mailEl.value; 
+    let mail=mailEl.value;
+    if(name==="" || sap==="" || mail===""){
+        console.log("Fields are Empty");
+    }
 })
