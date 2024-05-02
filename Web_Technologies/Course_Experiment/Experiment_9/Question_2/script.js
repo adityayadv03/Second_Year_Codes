@@ -9,5 +9,16 @@ submitEL.addEventListener("click",(event)=>{
     let mail=mailEl.value;
     if(name==="" || sap==="" || mail===""){
         console.log("Fields are Empty");
+    }else if(isValidfield(mail)!==true){
+        event.preventDefault();
     }
-})
+});
+
+function isValidfield(ch){
+    let space=/[ ]/;
+    if(space.test(ch)===true){
+        return false;
+    }else{
+        return true;
+    }
+}
