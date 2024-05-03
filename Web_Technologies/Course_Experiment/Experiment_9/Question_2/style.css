@@ -8,11 +8,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Sedan SC", serif;
+    background-color: #333;
 }
 .container{
-    border: 2px solid brown;
+    border: 5px solid rgb(145, 177, 96);
     border-radius: 10px;
     padding: 15px;
+    background-color: #333;
+    color: #fff;
 }
 .box{
     padding: 5px;
@@ -26,11 +30,23 @@ body{
 }
 .box input{
     padding: 5px;
-    outline-color: red;
+    outline-color: green;
+    font-family: "Sedan SC", serif;
 }
 .box button{
     padding: 5px 10px;
-    font-weight: 550;
+    font-weight: 600;
     font-style: italic;
     background-color: rgb(64, 170, 64);
+    transition: 0.2s;
+    font-family: "Sedan SC", serif;
+}
+.box button:hover{
+    color: rgb(64, 170, 64);
+    background-color: black;
+}
+.container form h2{
+    text-align: center;
+    font-size: 30px;
+    color: aquamarine;
 }

@@ -10,7 +10,7 @@ submitEL.addEventListener("click",(event)=>{
     if(name==="" || sap==="" || mail===""){
         console.log("Fields are Empty");
     }else if(isValidfield(mail)!==true){
-        event.preventDefault();
+        alert("Data Submitted");
     }
 });
 
